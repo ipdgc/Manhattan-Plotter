@@ -31,6 +31,7 @@ gwas <- fread(file = gwasFile, header = T)
 hits <- fread(file = hitsFile, header = T)
 
 ## munge GWAS summary stats, also factor code the p-values as per Pulit et al., 2016
+### we also truncate P values at -log10P of 40 to keep the Y axis looking good
 
 gwas$log10Praw <- -1*log(gwas$P, base = 10)
 gwas$log10P <- ifelse(gwas$log10Praw > 40, 40, gwas$log10Praw)
