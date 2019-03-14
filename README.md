@@ -9,12 +9,12 @@ Plot genome-wide association study analysis summary statsitics, label genes at h
 
 ## Script usage is below
 
-To run the script:
+#### To run the script:
 ```
 Rscript manhattanPlotter.R [gwas] [hits] [output]
 ```
 
-Options include:
+#### Options include:
 ```
 [gwas] <-- a file containing GWAS summary statistics. Mandatory columns to include are SNP, CHR, BP and P.
 ```
