@@ -60,6 +60,11 @@ chr1:232664611	0	SIPA1L2
 ...
 ```
 
+Command
+```
+Rscript manhattanPlotter.R testGwas.tab testHits.tab testPlot
+```
+
 ## Depends on
 R > 3.5 with packages data.table, tidyverse, ggrepel and reshape2
 
