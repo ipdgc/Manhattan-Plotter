@@ -17,11 +17,16 @@ Rscript manhattanPlotter.R [gwas] [hits] [output]
 Options include:
 ```
 [gwas] <-- a file containing GWAS summary statistics. Mandatory columns to include are SNP, CHR, BP and P.
-  In this file SNP is a unique text identifier for the variant of interest, CHR is the chromosome number, BP is the base pair position and P is the p-value for the SNP parameter.
+```
+In this file SNP is a unique text identifier for the variant of interest, CHR is the chromosome number, BP is the base pair position and P is the p-value for the SNP parameter.
+```
 [hits] <-- a file containing annotation for GWAS hits of interest. Mandatory columns to include are SNP, STATUS and GENE.
-  In this file, SNPs of interest are listed with a STATUS indicator (binary) and a GENE label (character strings).
+```
+In this file, SNPs of interest are listed with a STATUS indicator (binary) and a GENE label (character strings).
+```
 [output]<-- a character string with no spaces, whatever you want to name this plot.
 ```
+Pretty straightforward.
 
 ## Example input files
 
