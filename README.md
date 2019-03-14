@@ -41,5 +41,5 @@ Hits file
 ## Depends on
 R > 3.5 with packages data.table, tidyverse, ggrepel and reshape2
 
-### Questions or comments
+## Questions or comments
 [Mike Nalls](mike@datatecnica.com)
